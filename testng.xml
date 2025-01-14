@@ -1,0 +1,10 @@
+<suite name="Ebay_Test_Suite">
+    <listeners>
+        <listener class-name="com.testauto.testsuite.TestListener"/>
+    </listeners>
+    <test name="Ebay_Tests">
+        <classes>
+            <class name="com.testauto.test.EbaySearchTestSuite"/>
+        </classes>
+    </test>
+</suite>

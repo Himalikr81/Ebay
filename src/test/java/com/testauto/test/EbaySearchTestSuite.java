@@ -120,7 +120,9 @@ public class EbaySearchTestSuite {
 		    }
 		}
 
-	
+	/*
+ 		//This test is designed to demonstrate a failure test case. We only filter for 'unlock'.  Hence, the test cannot locate the 'T-Mobile' option and will result in failure  
+   
 		@Test(priority = 4, description = "Filter the item further from left navigation verify the results - negative test case ")
 			public void filterSearchResultsNegativeTest() {
 			System.out.println("TEST4 - Filter the item further from left navigation verify the results - negative test case");
@@ -147,7 +149,8 @@ public class EbaySearchTestSuite {
 			        ScreenshotUtil.captureScreenshot(driver, "filterSearchResults");
 			    }
 			}
-
+*/
+	
 	@AfterTest
 	public void tearDown() {
 		excelReader.saveWorkbook();

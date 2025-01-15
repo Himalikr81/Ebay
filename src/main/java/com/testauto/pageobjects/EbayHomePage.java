@@ -32,7 +32,7 @@ public class EbayHomePage {
 	}
 
 	public WebElement btnSearch() {
-		return txtSearch = SetupDriver.getDriver().findElement(By.xpath("//input[@id='gh-btn']"));
+		return txtSearch = SetupDriver.getDriver().findElement(By.id("gh-search-btn"));
 	}
 
 	/*
